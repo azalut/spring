@@ -1,0 +1,13 @@
+.content{
+    width: 80%;
+    margin-left: 10%;
+    border: 3px solid orange;
+    background-color: darkgray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 100%;
+    min-height: 800px;
+}
+body{
+    background-image: url(http://i2.ytimg.com/u/eJsdsMyjruxl2AwGYZrd0A/channels3_background.jpg?v=4fcc97d6);
+}

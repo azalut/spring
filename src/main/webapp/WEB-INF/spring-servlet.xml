@@ -8,6 +8,7 @@
 
     <mvc:annotation-driven/>
     <context:component-scan base-package="com.maciej"/>
+    <mvc:resources mapping="/resources/**" location="/resources/"/>
 
     <!--VIEW RESOLVER-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

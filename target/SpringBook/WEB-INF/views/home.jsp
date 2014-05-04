@@ -6,7 +6,7 @@
 <html>
 <head>
     <title></title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="../../resources/style.css" />
 </head>
 <body>
      <div id="content">

@@ -34,9 +34,14 @@ public class HomeController {
         return new ModelAndView("formek");
     }
 
+    @RequestMapping(value = "/form1", method = RequestMethod.GET)
+    public ModelAndView displayForm1(){
+        return new ModelAndView("formek", "atryb", new User());
+    }
+
     @RequestMapping(value = "/add", method = RequestMethod.POST)
     public ModelAndView add(@ModelAttribute("atryb") User user){
         //tu moze byc jakis service dla modelu
-        return displayForm(user);
+        return new ModelAndView("successFormek", "user", user);
     }
 }
